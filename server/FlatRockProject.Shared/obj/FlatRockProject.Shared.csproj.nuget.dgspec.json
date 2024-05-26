@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\Desktop\\FamousQuoteQuiz\\FlatRockProject.Shared\\FlatRockProject.Shared.csproj": {}
+    "C:\\Users\\user\\Desktop\\Quiz\\server\\FlatRockProject.Shared\\FlatRockProject.Shared.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\Desktop\\FamousQuoteQuiz\\FlatRockProject.Shared\\FlatRockProject.Shared.csproj": {
+    "C:\\Users\\user\\Desktop\\Quiz\\server\\FlatRockProject.Shared\\FlatRockProject.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Desktop\\FamousQuoteQuiz\\FlatRockProject.Shared\\FlatRockProject.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\Quiz\\server\\FlatRockProject.Shared\\FlatRockProject.Shared.csproj",
         "projectName": "FlatRockProject.Shared",
-        "projectPath": "C:\\Users\\user\\Desktop\\FamousQuoteQuiz\\FlatRockProject.Shared\\FlatRockProject.Shared.csproj",
+        "projectPath": "C:\\Users\\user\\Desktop\\Quiz\\server\\FlatRockProject.Shared\\FlatRockProject.Shared.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Desktop\\FamousQuoteQuiz\\FlatRockProject.Shared\\obj\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\Quiz\\server\\FlatRockProject.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sJdMhP8vpRcO0IfeEP4zsVb1x/Pahm4E/fK6DZ+qe0ZiF2VnBh1orgPFSddrwgZyubMNaEcbiOQsIFa/boeNwg==",
+  "dgSpecHash": "qmXwdk/3OY5P9OIjaNc0RU/J2+9wX4N05PEaLd1Om5VLZMnWZLtEWnQp9iou5POFv1YPa+hOvqan/40aencmKg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\user\\Desktop\\FamousQuoteQuiz\\FlatRockProject.Infrastructure\\FlatRockProject.Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\user\\Desktop\\Quiz\\server\\FlatRockProject.Infrastructure\\FlatRockProject.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",

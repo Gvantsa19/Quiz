@@ -5598,11 +5598,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\Desktop\\FamousQuoteQuiz\\FlatRockProject.API\\FlatRockProject.API.csproj",
+      "projectUniqueName": "C:\\Users\\user\\Desktop\\Quiz\\server\\FlatRockProject.API\\FlatRockProject.API.csproj",
       "projectName": "FlatRockProject.API",
-      "projectPath": "C:\\Users\\user\\Desktop\\FamousQuoteQuiz\\FlatRockProject.API\\FlatRockProject.API.csproj",
+      "projectPath": "C:\\Users\\user\\Desktop\\Quiz\\server\\FlatRockProject.API\\FlatRockProject.API.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\Desktop\\FamousQuoteQuiz\\FlatRockProject.API\\obj\\",
+      "outputPath": "C:\\Users\\user\\Desktop\\Quiz\\server\\FlatRockProject.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5619,11 +5619,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\user\\Desktop\\FamousQuoteQuiz\\FlatRockProject.Application\\FlatRockProject.Application.csproj": {
-              "projectPath": "C:\\Users\\user\\Desktop\\FamousQuoteQuiz\\FlatRockProject.Application\\FlatRockProject.Application.csproj"
+            "C:\\Users\\user\\Desktop\\Quiz\\server\\FlatRockProject.Application\\FlatRockProject.Application.csproj": {
+              "projectPath": "C:\\Users\\user\\Desktop\\Quiz\\server\\FlatRockProject.Application\\FlatRockProject.Application.csproj"
             },
-            "C:\\Users\\user\\Desktop\\FamousQuoteQuiz\\FlatRockProject.Infrastructure\\FlatRockProject.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\user\\Desktop\\FamousQuoteQuiz\\FlatRockProject.Infrastructure\\FlatRockProject.Infrastructure.csproj"
+            "C:\\Users\\user\\Desktop\\Quiz\\server\\FlatRockProject.Infrastructure\\FlatRockProject.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\user\\Desktop\\Quiz\\server\\FlatRockProject.Infrastructure\\FlatRockProject.Infrastructure.csproj"
             }
           }
         }

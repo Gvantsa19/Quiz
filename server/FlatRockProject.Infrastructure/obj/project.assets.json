@@ -4318,11 +4318,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\Desktop\\FamousQuoteQuiz\\FlatRockProject.Infrastructure\\FlatRockProject.Infrastructure.csproj",
+      "projectUniqueName": "C:\\Users\\user\\Desktop\\Quiz\\server\\FlatRockProject.Infrastructure\\FlatRockProject.Infrastructure.csproj",
       "projectName": "FlatRockProject.Infrastructure",
-      "projectPath": "C:\\Users\\user\\Desktop\\FamousQuoteQuiz\\FlatRockProject.Infrastructure\\FlatRockProject.Infrastructure.csproj",
+      "projectPath": "C:\\Users\\user\\Desktop\\Quiz\\server\\FlatRockProject.Infrastructure\\FlatRockProject.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\Desktop\\FamousQuoteQuiz\\FlatRockProject.Infrastructure\\obj\\",
+      "outputPath": "C:\\Users\\user\\Desktop\\Quiz\\server\\FlatRockProject.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",

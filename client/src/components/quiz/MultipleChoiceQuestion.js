@@ -132,6 +132,7 @@ const MultipleChoiceQuestionPage = ({ baseServiceQuizUrl }) => {
         height: "900px",
         boxShadow: "rgb(38, 57, 77) 0px 20px 30px -10px",
         padding: "50px",
+        backgroundImage: "linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%)"
       }}
     >
       <h1>Who Said It? Famous Quotes Quiz</h1>

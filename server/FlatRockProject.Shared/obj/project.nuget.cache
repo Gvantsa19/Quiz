@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sfGXVUZgv4BdVLuqAEP7bhqNIcFXFf6CUC8sbsn+NpvknYXtqvIGVmkpiZDY07OBPUOeIFbQUK9se8ROPSokcw==",
+  "dgSpecHash": "GLDIgoJ/j6xUtVTeUYJe66Ptr6P+zJUupNWgKyTt5ezTelEZiJf5659YNGy640d7qumD/jAHnQ7n1Kv6V5696w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\user\\Desktop\\FamousQuoteQuiz\\FlatRockProject.Shared\\FlatRockProject.Shared.csproj",
+  "projectFilePath": "C:\\Users\\user\\Desktop\\Quiz\\server\\FlatRockProject.Shared\\FlatRockProject.Shared.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

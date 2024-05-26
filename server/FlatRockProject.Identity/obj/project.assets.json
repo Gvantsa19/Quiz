@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\Desktop\\FamousQuoteQuiz\\FlatRockProject.Identity\\FlatRockProject.Identity.csproj",
+      "projectUniqueName": "C:\\Users\\user\\Desktop\\Quiz\\server\\FlatRockProject.Identity\\FlatRockProject.Identity.csproj",
       "projectName": "FlatRockProject.Identity",
-      "projectPath": "C:\\Users\\user\\Desktop\\FamousQuoteQuiz\\FlatRockProject.Identity\\FlatRockProject.Identity.csproj",
+      "projectPath": "C:\\Users\\user\\Desktop\\Quiz\\server\\FlatRockProject.Identity\\FlatRockProject.Identity.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\Desktop\\FamousQuoteQuiz\\FlatRockProject.Identity\\obj\\",
+      "outputPath": "C:\\Users\\user\\Desktop\\Quiz\\server\\FlatRockProject.Identity\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",

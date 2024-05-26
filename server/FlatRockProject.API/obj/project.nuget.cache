@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6SZ1muNONPDj6xPKnUUZzP2DnPJQRTpJEpLko/DyKzWlOhcUGxR6Sb3EXxuDCpGx6tZzjilFYd/FZx4lquJwFg==",
+  "dgSpecHash": "xnBJGGXWwlpvKn5ShmvbuzyeA0QDiKFEewK+JnWLgdsVuFrfpmT50gNGf/60qkzB0j6JWqzNFj8xUI+3kUCTQA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\user\\Desktop\\FamousQuoteQuiz\\FlatRockProject.API\\FlatRockProject.API.csproj",
+  "projectFilePath": "C:\\Users\\user\\Desktop\\Quiz\\server\\FlatRockProject.API\\FlatRockProject.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
