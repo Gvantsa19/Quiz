@@ -3,6 +3,7 @@ import axios from "axios";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import LoginPage from "./Login";
+import Config from "../../config.json";
 
 const Register = () => {
   const [errorMessage, setErrorMessage] = useState("");
@@ -12,7 +13,7 @@ const Register = () => {
     email: "",
     password: "",
   });
-  const [registered, setRegistered] = useState(false); // State to track registration success
+  const [registered, setRegistered] = useState(false);
 
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
@@ -22,12 +23,12 @@ const Register = () => {
     e.preventDefault();
     try {
       const response = await axios.post(
-        "https://localhost:7264/api/User/register",
+        Config.Settings.CommonApi_BaseUrl + "User/register",
         formData
       );
       console.log(response.data);
       if (response.status === 200) {
-        setRegistered(true); // Set registered to true upon successful registration
+        setRegistered(true);
       } else {
         setErrorMessage("Registration failed. Please try again.");
       }
@@ -48,7 +49,6 @@ const Register = () => {
   };
 
   if (registered) {
-    // If registered, render login page
     return (
       <div
         style={{

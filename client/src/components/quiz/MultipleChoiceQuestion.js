@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import Button from "react-bootstrap/Button";
+import Config from "../../config.json";
 
 const MultipleChoiceQuestionPage = ({ baseServiceQuizUrl }) => {
   const [questionData, setQuestionData] = useState({
@@ -34,7 +35,7 @@ const MultipleChoiceQuestionPage = ({ baseServiceQuizUrl }) => {
     const fetchLastMultipleChoiceQuestionId = async () => {
       try {
         const response = await fetch(
-          "https://localhost:7264/api/Quiz/listOfMultiple",
+          Config.Settings.CommonApi_BaseUrl + "Quiz/listOfMultiple",
           {
             headers: getAuthHeaders(),
           }
@@ -59,7 +60,7 @@ const MultipleChoiceQuestionPage = ({ baseServiceQuizUrl }) => {
 
   const fetchQuestionData = async () => {
     const response = await axios.get(
-      "https://localhost:7264/api/Quiz/multiple-choice-question",
+      Config.Settings.CommonApi_BaseUrl + "Quiz/multiple-choice-question",
       {
         headers: getAuthHeaders(),
       }
@@ -132,7 +133,7 @@ const MultipleChoiceQuestionPage = ({ baseServiceQuizUrl }) => {
         height: "900px",
         boxShadow: "rgb(38, 57, 77) 0px 20px 30px -10px",
         padding: "50px",
-        backgroundImage: "linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%)"
+        backgroundImage: "linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%)",
       }}
     >
       <h1>Who Said It? Famous Quotes Quiz</h1>

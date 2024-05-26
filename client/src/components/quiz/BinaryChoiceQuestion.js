@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Button from "react-bootstrap/Button";
+import Config from "../../config.json";
 
 const BinaryChoiceQuestion = () => {
   const [questionsData, setQuestionsData] = useState([]);
@@ -26,7 +27,7 @@ const BinaryChoiceQuestion = () => {
 
   const fetchQuestionsData = async () => {
     try {
-      const response = await fetch("https://localhost:7264/api/Quiz/list", {
+      const response = await fetch(Config.Settings.CommonApi_BaseUrl + "Quiz/list", {
         headers: getAuthHeaders(),
       });
       if (!response.ok) {
