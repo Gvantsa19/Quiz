@@ -77,5 +77,41 @@ namespace FlatRockProject.Application.Services.User
                 };
             }
         }
+
+        public async Task<ApplicationResult> UpdateUser(string userId, UpdateUserDto model)
+        {
+            var user = await _userManager.FindByIdAsync(userId);
+            if (user == null)
+            {
+                return new ApplicationResult
+                {
+                    Success = false,
+                    Errors = new List<Error> { new Error("User not found.") }
+                };
+            }
+
+            user.FirstName = model.FirstName;
+            user.LastName = model.LastName;
+
+            var result = await _userManager.UpdateAsync(user);
+            if (result.Succeeded)
+            {
+                return new ApplicationResult
+                {
+                    Success = true
+                };
+            }
+            else
+            {
+                var errorMessages = result.Errors.Select(error => error.Description);
+                var error = new Error(errorMessages);
+
+                return new ApplicationResult
+                {
+                    Success = false,
+                    Errors = new List<Error> { error }
+                };
+            }
+        }
     }
 }
